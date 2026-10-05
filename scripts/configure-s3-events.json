@@ -1,0 +1,10 @@
+{
+    "QueueConfigurations": [
+        {
+            "QueueArn" : "arn:aws:sqs:ap-south-1:000000000000:import-events",
+            "Events" : [
+                "s3:ObjectCreated:*"
+            ]
+        }
+    ]
+}
